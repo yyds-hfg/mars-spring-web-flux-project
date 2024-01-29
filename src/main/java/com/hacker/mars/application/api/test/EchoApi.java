@@ -22,7 +22,7 @@ public class EchoApi {
     @ApiOperation(value = "echo测试")
     @GetMapping("/echo")
     public String echo() {
-        return "echo";
+        return " echo";
     }
 
 }
